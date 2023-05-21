@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url('background_image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  height: 600px;
+  width: 800px;
+  display: grid;
+  background-color: #000;
+  grid-template-columns: 200px 100px 20px 10px auto ;
+  grid-template-rows: 20px 400px 40px 100px auto ;
+  gap: 9px;
+  padding: 10px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+  
+}
+.white {
+  background-color: white;
+}
+
+.green {
+  background-color: rgb(48, 194, 8);
+}
